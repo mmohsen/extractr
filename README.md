@@ -7,7 +7,7 @@ Clone the repository, or simply just download extractr.rb. It requires Trollop g
 
 ## Usage
 
-	ruby extractr.rb [options] <filename(s)>
+	extractr [options] <filename(s)>
 
 	Options:
 	  -e, --extract-emails     Extract email addresses
@@ -18,6 +18,6 @@ Clone the repository, or simply just download extractr.rb. It requires Trollop g
 
 ### Examples
 
-	ruby extractr.rb --extract-emails db_list.csv
-	cat *.csv | ruby extractr.rb --extract-domains
+	extractr --extract-emails db_list.csv
+	cat *.csv | extractr.rb --extract-domains
  

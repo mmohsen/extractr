@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 #
 # extractr - A simple utility to extract emails and domain names from text
 #
